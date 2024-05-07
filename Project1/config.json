@@ -1,0 +1,81 @@
+{
+    "servers": [
+        {
+            "name": "google",
+            "host": "www.google.com",
+            "port": 80,
+            "service": "ping",
+            "interval": 10
+        },
+        {
+            "name": "google",
+            "host": "www.google.com",
+            "port": 80,
+            "service": "TCP",
+            "interval": 4
+        },
+        {
+            "name": "google",
+            "host": "www.google.com",
+            "port": 80,
+            "service": "ICMP",
+            "interval": 5
+        },
+        {
+            "name": "yahoo",
+            "host": "www.yahoo.com",
+            "port": 80,
+            "service": "HTTPS",
+            "interval": 6
+        },
+        {
+            "name": "google",
+            "host": "www.google.com",
+            "port": 80,
+            "service": "HTTP",
+            "interval": 10
+        },
+        {
+            "name": "google",
+            "host": "www.google.com",
+            "port": 80,
+            "service": "ping",
+            "interval": 10
+        },
+        {
+            "name": "8.8.8.8",
+            "host": "google",
+            "port": 53,
+            "service": "UDP",
+            "interval": 7
+        },
+        {
+            "name": "8.8.8.8",
+            "host": "google",
+            "port": 53,
+            "service": "DNS",
+            "interval": 9
+        },
+        {
+            "name": "pool.ntp.org",
+            "host": "pool ntp",
+            "port": 53,
+            "service": "NTP",
+            "interval": 12
+        },
+        {
+            "name": "127.0.0.1",
+            "host": "localhost",
+            "port": 8888,
+            "service": "ECHO",
+            "interval": 5
+        },
+        {
+            "name": "walmart",
+            "host": "www.walmart.com",
+            "port": 80,
+            "service": "ping",
+            "interval": 11
+        }
+    ]
+}
